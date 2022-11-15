@@ -7,6 +7,8 @@
 
 body {
     background: #E5E5E5;
+    width: 1200px;
+    margin: auto;
 }
 
 header {
@@ -134,4 +136,53 @@ margin-top: 47px;
 
     font: 500 21px 'DM Sans';
     color: #181717;
+}
+.about {
+    margin-top: 100px;
+}
+
+.flex-about {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.img-about {
+    background-color: #606060;
+    height: 457px;
+    width: 405px;
+
+}
+.info-about {
+    width: 570px;
+}
+.info-about h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+.info-about p {
+    font: 400 24px 'DM Sans';
+    color: #606060;
+    margin-top: 30px;
+}
+ 
+.about-block-skills {
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-skills-more-info {
+   width: 400px; 
+   margin-left: 40px;
+   font: 400 20px 'DM Sans';
+   color: #181717;
+}
+.about-skills {
+    display: flex;
+
+}
+.about-skills-header {
+    font: 500 22px 'DM Sans';
+    color: #181717; 
+    text-decoration-line: underline;
+  
 }

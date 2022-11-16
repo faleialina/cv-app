@@ -33,156 +33,209 @@ header {
     font: 500 22px 'DM Sans';
     color: #181717;
 }
+
 .flex {
     display: flex;
     justify-content: space-between;
-   align-items: center;
-   margin-top: 120px;
-   margin-bottom: 120px;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
+
 .flex h1 {
-   
+
     font: 500 60px 'DM Sans';
-    color: black;  
+    color: black;
 }
+
 .flex p {
-   
+
     font: 400 32px 'DM Sans';
-    color: rgb(50, 48, 48);  
+    color: rgb(50, 48, 48);
 }
+
 .arrow {
     background-image: url(./assets/↓.svg);
     background-repeat: no-repeat;
-    height:39px;
+    height: 39px;
     width: 33px;
 }
+
 .flex2 {
     display: flex;
     justify-content: space-between;
-   align-items: center;
-   margin-top: 120px;
-   margin-bottom: 120px;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
+
 .flex3 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   align-items: flex-start;
-   
-   
+    align-items: flex-start;
+
+
 }
+
 .h1 {
-   
+
     font: 500 24px 'DM Sans';
-    color: black;  
+    color: black;
 }
+
 .p1 {
-   
+
     font: 400 22px 'DM Sans';
-    color: #181717; 
-    border-bottom: 34px; 
+    color: #181717;
+    border-bottom: 34px;
 }
+
 .p2 {
-   
+
     font: 400 22px 'DM Sans';
-    color: #606060;;  
+    color: #606060;
+    ;
 }
+
 .p3 {
-   border-top: 158px;
+    border-top: 158px;
     font: 500 22px 'DM Sans';
-    color: #181717; 
-    text-decoration-line: underline; 
+    color: #181717;
+    text-decoration-line: underline;
 }
+
 .rectangle {
     background-image: url(./assets/Thumbnail.svg);
     background-repeat: no-repeat;
-    height:364px;
+    height: 364px;
     width: 640px;
 }
+
 .line {
     padding-top: 2px;
     height: 1px;
     background-color: rgb(11, 11, 11);
-margin-top: 47px;
+    margin-top: 47px;
 }
+
 .p4 {
     border-top: 158px;
-     font: 500 22px 'Inter';
-     color: #181717; 
-     text-decoration-line: underline; 
- }
+    font: 500 22px 'Inter';
+    color: #181717;
+    text-decoration-line: underline;
+}
 
- .flex4 {
+.flex4 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-   align-items: flex-start;
-   
-   
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1120px;
+    height: 20px;
+    margin-top: 135px;
+
 }
 
 .p5 {
 
     font: 500 22px 'DM Sans';
     color: #2429AF;
-   
+
 }
+
+.flex5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+    height: 20px;
+}
+
 .p6 {
 
     font: 500 22px 'DM Sans';
     color: #181717;
 }
+
 .p7 {
 
     font: 500 21px 'DM Sans';
     color: #181717;
+    
 }
+
 .about {
     margin-top: 100px;
 }
 
 .flex-about {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 .img-about {
     background-color: #606060;
     height: 457px;
     width: 405px;
-
 }
+
 .info-about {
     width: 570px;
 }
+
 .info-about h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
 }
+
 .info-about p {
     font: 400 24px 'DM Sans';
     color: #606060;
     margin-top: 30px;
 }
- 
+
 .about-block-skills {
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .about-skills-more-info {
-   width: 400px; 
-   margin-left: 40px;
-   font: 400 20px 'DM Sans';
-   color: #181717;
+    width: 400px;
+    margin-left: 40px;
+    font: 400 20px 'DM Sans';
+    color: #181717;
 }
+
 .about-skills {
     display: flex;
 
 }
+
 .about-skills-header {
     font: 500 22px 'DM Sans';
-    color: #181717; 
+    color: #181717;
     text-decoration-line: underline;
-  
+
+}
+
+.questions {
+   
+    display: flex;
+   flex: start;
+   margin-top: 71px;
+   font: 500 22px 'DM Sans';
+    color: #181717;
+   }
+
+.questions-margin {
+margin-right: 322px;    
+}
+
+.about-arrow-questions {
+    background-image: url(./assets/↓\ \(1\).svg);
+    background-repeat: no-repeat;
+    height: 39px;
+    width: 33px;
 }

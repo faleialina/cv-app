@@ -162,7 +162,7 @@ header {
 
     font: 500 21px 'DM Sans';
     color: #181717;
-    
+
 }
 
 .about {
@@ -221,16 +221,16 @@ header {
 }
 
 .questions {
-   
+
     display: flex;
-   flex: start;
-   margin-top: 71px;
-   font: 500 22px 'DM Sans';
+    flex: start;
+    margin-top: 71px;
+    font: 500 22px 'DM Sans';
     color: #181717;
-   }
+}
 
 .questions-margin {
-margin-right: 322px;    
+    margin-right: 322px;
 }
 
 .about-arrow-questions {
@@ -238,4 +238,43 @@ margin-right: 322px;
     background-repeat: no-repeat;
     height: 39px;
     width: 33px;
+}
+
+.email-box {
+    margin-top: 52px;
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.order-number-box {
+    margin-top: 30px;
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }

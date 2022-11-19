@@ -22,11 +22,10 @@ header {
     align-items: center;
     position: fixed;
     width: 98%;
-    background-color: #b3a6a6;
+    background-color: #c4c1c1;
     padding: 20px;
     left: 0;
     top: 0;
-
 }
 
 .img-logo {
@@ -53,7 +52,6 @@ header {
 .header-nav p:hover {
     text-decoration: underline;
 }
-
 
 .flex {
     display: flex;
@@ -95,8 +93,6 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-
-
 }
 
 .h1 {
@@ -106,18 +102,15 @@ header {
 }
 
 .p1 {
-
     font: 400 22px 'DM Sans';
     color: #181717;
     border-bottom: 34px;
 }
 
 .p2 {
-
     font: 400 22px 'DM Sans';
     color: #606060;
-    ;
-}
+   }
 
 .p3 {
     border-top: 158px;
@@ -155,15 +148,12 @@ header {
     width: 1120px;
     height: 20px;
     margin-top: 135px;
-
-
 }
 
 .p5 {
 
     font: 500 22px 'DM Sans';
     color: #2429AF;
-
 }
 
 .flex5 {
@@ -184,7 +174,6 @@ header {
 
     font: 500 21px 'DM Sans';
     color: #181717;
-
 }
 
 .about {
@@ -220,7 +209,7 @@ header {
 .about-block-skills {
     display: flex;
     flex-direction: column;
-
+    margin-top: 81px;
 }
 
 .about-skills-more-info {
@@ -232,18 +221,15 @@ header {
 
 .about-skills {
     display: flex;
-
 }
 
 .about-skills-header {
     font: 500 22px 'DM Sans';
     color: #181717;
     text-decoration-line: underline;
-
 }
 
 .questions {
-
     display: flex;
     flex: start;
     margin-top: 71px;
@@ -283,16 +269,13 @@ header {
 
 
 .contact {
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-
 }
 
 .input {
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -317,7 +300,6 @@ header {
     text-align: center;
     font: 700 18px 'DM Sans';
     margin-top: 30px;
-
 }
 
 .butto:hover {

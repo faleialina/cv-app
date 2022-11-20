@@ -45,6 +45,7 @@ header {
     color: #181717;
 }
 
+
 .header-nav p:not(:last-child) {
     margin-right: 29px;
 }
@@ -110,7 +111,7 @@ header {
 .p2 {
     font: 400 22px 'DM Sans';
     color: #606060;
-   }
+}
 
 .p3 {
     border-top: 158px;
@@ -145,7 +146,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 
-    width: 1120px;
+    
     height: 20px;
     margin-top: 135px;
 }
@@ -280,6 +281,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    margin: auto;
 }
 
 .text {
@@ -305,3 +307,36 @@ header {
 .butto:hover {
     background-color: #181717;
 }
+
+
+@media screen and (max-width: 500px) {
+    body {
+
+        width: max-content;
+    }
+
+    .contact {
+       
+        flex-direction: column;
+    }
+
+    .info-about p {
+        font: 400 24px 'DM Sans';
+
+    }
+
+    .input input {
+
+        width: 200px;
+
+    }
+
+    .butto {
+        padding: 5px 0;
+        font: 500 15px 'DM Sans';
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+

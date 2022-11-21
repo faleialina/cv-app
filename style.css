@@ -146,7 +146,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 
-    
+
     height: 20px;
     margin-top: 135px;
 }
@@ -259,16 +259,6 @@ header {
     padding: 15px 0 15px 10px;
 }
 
-.order-number-box {
-    margin-top: 30px;
-    width: 676px;
-    height: 50px;
-    background: #FFFFFF;
-    border: 1px solid #C4C4C4;
-    border-radius: 5px;
-}
-
-
 .contact {
     display: flex;
     flex-direction: row;
@@ -316,7 +306,7 @@ header {
     }
 
     .contact {
-       
+
         flex-direction: column;
     }
 
@@ -326,8 +316,9 @@ header {
     }
 
     .input input {
-
-        width: 200px;
+        height: 30px;
+        width: 300px;
+        margin-top: 20px;
 
     }
 
@@ -336,7 +327,38 @@ header {
         font: 500 15px 'DM Sans';
         margin: 0 auto;
         margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .img-about {
+        height: 357px;
+        width: 305px;
+    }
+
+    .info-about h1 {
+        font: 500 40px 'DM Sans';
+
+    }
+
+    .info-about p {
+        font: 400 20px 'DM Sans';
+
+    }
+
+    .about-skills-more-info {
+        font: 400 18px 'DM Sans';
+
+    }
+
+    .questions {
+
+        margin-top: 55px;
+        font: 500 20px 'DM Sans';
+        color: #181717;
+    }
+
+    .about-arrow-questions {
+        height: 30px;
+        width: 29px;
     }
 }
-
-
